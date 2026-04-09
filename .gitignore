@@ -53,3 +53,23 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Local private profile
+kaoyan_profile.json
+memory_policy.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Local vector memory DB (regenerated at runtime)
+memory_db.sqlite3
+*.sqlite3-journal
+
+# Local scratch / test exports
+test.txt
+test_memory.csv

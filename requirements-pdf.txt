@@ -1,0 +1,3 @@
+# PDF 投喂（Memory Studio「PDF 投喂」标签页）
+pymupdf>=1.24.0
+# 备选（无 pymupdf 时）：pypdf>=4.0.0
